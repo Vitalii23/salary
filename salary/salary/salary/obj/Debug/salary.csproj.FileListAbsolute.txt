@@ -1,0 +1,10 @@
+D:\Документы\Visual Studio 2015\Projects\salary\salary\bin\Debug\salary.exe.config
+D:\Документы\Visual Studio 2015\Projects\salary\salary\bin\Debug\salary.exe
+D:\Документы\Visual Studio 2015\Projects\salary\salary\bin\Debug\salary.pdb
+D:\Документы\Visual Studio 2015\Projects\salary\salary\obj\Debug\salary.csprojResolveAssemblyReference.cache
+D:\Документы\Visual Studio 2015\Projects\salary\salary\obj\Debug\salary.Form2.resources
+D:\Документы\Visual Studio 2015\Projects\salary\salary\obj\Debug\salary.Properties.Resources.resources
+D:\Документы\Visual Studio 2015\Projects\salary\salary\obj\Debug\salary.csproj.GenerateResource.Cache
+D:\Документы\Visual Studio 2015\Projects\salary\salary\obj\Debug\salary.exe
+D:\Документы\Visual Studio 2015\Projects\salary\salary\obj\Debug\salary.pdb
+D:\Документы\Visual Studio 2015\Projects\salary\salary\obj\Debug\salary.Wage.resources

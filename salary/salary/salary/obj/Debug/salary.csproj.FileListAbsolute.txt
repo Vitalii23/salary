@@ -8,3 +8,6 @@ D:\Документы\Visual Studio 2015\Projects\salary\salary\obj\Debug\salary
 D:\Документы\Visual Studio 2015\Projects\salary\salary\obj\Debug\salary.exe
 D:\Документы\Visual Studio 2015\Projects\salary\salary\obj\Debug\salary.pdb
 D:\Документы\Visual Studio 2015\Projects\salary\salary\obj\Debug\salary.Wage.resources
+D:\Program\Git\salary\salary\salary\bin\Debug\salary.exe.config
+D:\Program\Git\salary\salary\salary\obj\Debug\salary.exe
+D:\Program\Git\salary\salary\salary\obj\Debug\salary.pdb

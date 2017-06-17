@@ -73,6 +73,7 @@
             this.numericUpDownPayPerMonth.Size = new System.Drawing.Size(100, 20);
             this.numericUpDownPayPerMonth.TabIndex = 49;
             this.numericUpDownPayPerMonth.ThousandsSeparator = true;
+            this.numericUpDownPayPerMonth.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numericUpDownPayPerMonth_KeyPress);
             // 
             // numericUpDownHourInMonth
             // 
@@ -87,6 +88,7 @@
             this.numericUpDownHourInMonth.Name = "numericUpDownHourInMonth";
             this.numericUpDownHourInMonth.Size = new System.Drawing.Size(100, 20);
             this.numericUpDownHourInMonth.TabIndex = 47;
+            this.numericUpDownHourInMonth.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numericUpDownHourInMonth_KeyPress);
             // 
             // numericUpDownPayPerHour
             // 
@@ -107,6 +109,7 @@
             this.numericUpDownPayPerHour.Size = new System.Drawing.Size(100, 20);
             this.numericUpDownPayPerHour.TabIndex = 45;
             this.numericUpDownPayPerHour.ThousandsSeparator = true;
+            this.numericUpDownPayPerHour.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numericUpDownPayPerHour_KeyPress);
             // 
             // label5
             // 
@@ -236,6 +239,7 @@
             this.textBoxPatronymic.Name = "textBoxPatronymic";
             this.textBoxPatronymic.Size = new System.Drawing.Size(100, 20);
             this.textBoxPatronymic.TabIndex = 41;
+            this.textBoxPatronymic.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxPatronymic_KeyPress);
             // 
             // textBoxSurname
             // 
@@ -244,6 +248,7 @@
             this.textBoxSurname.Name = "textBoxSurname";
             this.textBoxSurname.Size = new System.Drawing.Size(100, 20);
             this.textBoxSurname.TabIndex = 39;
+            this.textBoxSurname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxSurname_KeyPress);
             // 
             // textBoxName
             // 
@@ -252,6 +257,7 @@
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(100, 20);
             this.textBoxName.TabIndex = 40;
+            this.textBoxName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxName_KeyPress);
             // 
             // Form2
             // 
@@ -277,7 +283,6 @@
             this.Controls.Add(this.textBoxName);
             this.Name = "Form2";
             this.Text = "Добавление сотрудника";
-            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPayPerMonth)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownHourInMonth)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPayPerHour)).EndInit();

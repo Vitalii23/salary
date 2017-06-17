@@ -203,6 +203,7 @@
             this.textBoxPatronymic.Name = "textBoxPatronymic";
             this.textBoxPatronymic.Size = new System.Drawing.Size(100, 20);
             this.textBoxPatronymic.TabIndex = 30;
+            this.textBoxPatronymic.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxPatronymic_KeyPress);
             // 
             // textBoxSurname
             // 
@@ -211,6 +212,7 @@
             this.textBoxSurname.Name = "textBoxSurname";
             this.textBoxSurname.Size = new System.Drawing.Size(100, 20);
             this.textBoxSurname.TabIndex = 28;
+            this.textBoxSurname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxSurname_KeyPress_1);
             // 
             // textBoxName
             // 
@@ -219,6 +221,7 @@
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(100, 20);
             this.textBoxName.TabIndex = 29;
+            this.textBoxName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxName_KeyPress_1);
             // 
             // buttonAdd
             // 
@@ -260,6 +263,7 @@
             this.numericUpDownPayPerMonth.Size = new System.Drawing.Size(100, 20);
             this.numericUpDownPayPerMonth.TabIndex = 22;
             this.numericUpDownPayPerMonth.ThousandsSeparator = true;
+            this.numericUpDownPayPerMonth.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numericUpDownPayPerMonth_KeyPress);
             // 
             // numericUpDownHourInMonth
             // 
@@ -274,6 +278,7 @@
             this.numericUpDownHourInMonth.Name = "numericUpDownHourInMonth";
             this.numericUpDownHourInMonth.Size = new System.Drawing.Size(100, 20);
             this.numericUpDownHourInMonth.TabIndex = 21;
+            this.numericUpDownHourInMonth.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numericUpDownHourInMonth_KeyPress);
             // 
             // numericUpDownPayPerHour
             // 
@@ -294,6 +299,7 @@
             this.numericUpDownPayPerHour.Size = new System.Drawing.Size(100, 20);
             this.numericUpDownPayPerHour.TabIndex = 20;
             this.numericUpDownPayPerHour.ThousandsSeparator = true;
+            this.numericUpDownPayPerHour.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numericUpDownPayPerHour_KeyPress);
             // 
             // label5
             // 

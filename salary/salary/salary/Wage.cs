@@ -884,6 +884,64 @@ namespace salary
             }
         }
 
+        /// <summary>
+        /// Ограничение на англиский язык.
+        /// </summary>
+        /// <returns></returns>
+        private void textBoxSurname_KeyPress_1(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+            if ((l < 'А' || l > 'я') && l != '\b' && l != '.')
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void textBoxName_KeyPress_1(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+            if ((l < 'А' || l > 'я') && l != '\b' && l != '.')
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void textBoxPatronymic_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+            if ((l < 'А' || l > 'я') && l != '\b' && l != '.')
+            {
+                e.Handled = true;
+            }
+        }
+
+        /// <summary>
+        /// Ограничение на отрицательные числа.
+        /// </summary>
+        /// <returns></returns>
+        private void numericUpDownPayPerHour_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(8))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void numericUpDownHourInMonth_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(8))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void numericUpDownPayPerMonth_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(8))
+            {
+                e.Handled = true;
+            }
+        }
     }
   }
 

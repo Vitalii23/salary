@@ -1,0 +1,10 @@
+D:\Документы\Visual Studio 2015\Projects\salary\UnitTests\bin\Debug\UnitTests.dll
+D:\Документы\Visual Studio 2015\Projects\salary\UnitTests\bin\Debug\UnitTests.pdb
+D:\Документы\Visual Studio 2015\Projects\salary\UnitTests\bin\Debug\nunit.framework.dll
+D:\Документы\Visual Studio 2015\Projects\salary\UnitTests\bin\Debug\salary.exe
+D:\Документы\Visual Studio 2015\Projects\salary\UnitTests\bin\Debug\NUnit.System.Linq.dll
+D:\Документы\Visual Studio 2015\Projects\salary\UnitTests\bin\Debug\salary.pdb
+D:\Документы\Visual Studio 2015\Projects\salary\UnitTests\bin\Debug\nunit.framework.xml
+D:\Документы\Visual Studio 2015\Projects\salary\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+D:\Документы\Visual Studio 2015\Projects\salary\UnitTests\obj\Debug\UnitTests.dll
+D:\Документы\Visual Studio 2015\Projects\salary\UnitTests\obj\Debug\UnitTests.pdb
